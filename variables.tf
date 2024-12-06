@@ -5,12 +5,12 @@ variable "vpc_cidr_block" {
 
 variable "private_subnet" {
     type = list(string)
-    default = ["10.10.21.0/24", "10.10.22.0/24"]
+    default = ["10.10.51.0/24", "10.10.52.0/24"]
 }
 
 variable "public_subnet" {
     type = list(string)
-    default = ["10.10.23.0/24", "10.10.24.0/24"]
+    default = ["10.10.53.0/24", "10.10.54.0/24"]
 }
 
 variable "availability_zone" {
